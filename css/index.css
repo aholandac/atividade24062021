@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem_topo{
+    height: 100%;
+    width: 100%;
+    background-image: url('../imagem/seventy7-ncz6824-web-copie.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.centro{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.centro_esquerda{
+    max-width: 300px;
+}
+
+.centro_meio{
+    max-width: 300px;
+}
+
+.centro_direita{
+    max-width: 300px;
+}
+
+.centro img{
+    /*max-height: 300px;*/
+    max-width: 300px;
+}
+
+.centro p{
+    text-align: justify;
+}
+
+#ref_img{
+    text-align: left;
+}
+
+.base{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;    
+}
+
+.base_form{
+    padding: 15px;
+}
+
+.base_contatos{
+    padding: 15px;
+}
+
+.base_form input{
+    width: 300px;
+    border-color: rgb(11, 90, 90);
+    border-radius: 5px;
+}
+
+.base_form input[type='button']{
+    border-radius: unset;
+}
+
+#form_mensagem{
+    height: 100px;
+    width: 300px;
+    border: 3px solid rgb(11, 90, 90);
+    border-radius: 5px;
+}
+
+/*
+.base_form #form_mensagem{
+    height: 100px;
+}*/
+
+.base_contatos a{
+    height: 55px;
+    padding: 5px;
+}
+
+.base_contatos a[href$='instagram.com']{
+    content: url('../imagem/Instagram.png');
+}
+
+.base_contatos a[href$='linkedin.com']{
+    content: url('../imagem/Linkedin.png');
+}
+
+.base_contatos a[href$='github.com']{
+    content: url('../imagem/github.png');
+}
+
+.section_contato a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    height: 10vh;
+    width: 80vw;
+    border-top: 3px solid rgb(199, 199, 199);
+}
+
+footer p{
+    text-align: center;
+}
